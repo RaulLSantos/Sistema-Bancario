@@ -1,0 +1,10 @@
+Função cadastrar usuário:
+Deve armazenar o usuário em uma lista composto por: nome, data de nascimento, cpf e endereço
+O endereço é uma string com o formato: logradouro, número, bairro, cidade/estado. 
+Deve ser armazenado apenas os números do CPF.
+Não pode cadastrar dois usuário com o mesmo CPF.
+
+Função Conta Corrente:
+Deve armazenar as contas em uma lista. A conta deve ser composta por: agência, número da conta e usuário. O número da conta é sequencial, iniciando em 1. O número da agência é fixo: 0001. O usuário pode ter mais de uma conta, mas uma conta pertence a somente um usuário.
+
+Dica: Para vincular um usuário a uma conta, filtre a lista de usuário buscando o número do CPF informado para cada usuário
